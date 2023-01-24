@@ -98,6 +98,28 @@ Antoine Blancy, Alexey Paulot
 
 #### EEGv, EMGv, Temperature
 
-- Looks promising
+Looks promising looking at the graphs.
+
+But it varries wildly between different mice.
+
+---
+
+# Labels
+
+**Multi-class classification** problem.
+
+- 3 classes: Awake, REM Sleep, Non-REM Sleep
+
+- One hot encoding, becomes:
+
+  - [0,0,1] -> Awake
+  - [0,1,0] -> Non-REM Sleep
+  - [1,0,0] -> REM Sleep
+
+- We can also infer the genetic group of a mouse if needed
+
+---
+
+#
 
 ---
