@@ -74,9 +74,9 @@ Antoine Blancy, Alexey Paulot
 
 - We have 4 days of data:
   - Only use the first 2 days, as they are undisturbed.
-- 401 frequencies:
+- 401 frequencies ($10^{-12}-10^{-8}$):
   - Min-max normalization
-- EEGv, EMGv, Temperature:
+- EEGv, EMGv ($10^{-12}-10^{-8}$), & Temperature:
   - Min-max normalization
 
 ---
@@ -120,6 +120,28 @@ But it varries wildly between different mice.
 
 ---
 
-#
+## Class imbalance
+
+<style>
+.clumn { columns: 2; }
+</style>
+<div>
+
+Dataset is **highly imbalanced**:
+
+</div>
+
+<div class="clumn">
+
+- ~50%
+- ~30%
+- ~20%
+
+- Dataset has a lot of data,
+- Undersampling majority classes
+
+</div>
 
 ---
+
+##
